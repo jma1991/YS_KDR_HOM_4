@@ -530,16 +530,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomjma1991YSKDRHOM4treef0c3b96160e7aac3f6be4916e515caef05b8c0a8targetblankf0c3b96a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/jma1991/YS_KDR_HOM_4/tree/f0c3b96160e7aac3f6be4916e515caef05b8c0a8" target="_blank">f0c3b96</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomjma1991YSKDRHOM4treefa12114f806a2fd1f9be8fe99fb3279a7f451e8ftargetblankfa12114a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/jma1991/YS_KDR_HOM_4/tree/fa12114f806a2fd1f9be8fe99fb3279a7f451e8f" target="_blank">fa12114</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomjma1991YSKDRHOM4treef0c3b96160e7aac3f6be4916e515caef05b8c0a8targetblankf0c3b96a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomjma1991YSKDRHOM4treefa12114f806a2fd1f9be8fe99fb3279a7f451e8ftargetblankfa12114a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/jma1991/YS_KDR_HOM_4/tree/f0c3b96160e7aac3f6be4916e515caef05b8c0a8" target="_blank">f0c3b96</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/jma1991/YS_KDR_HOM_4/tree/fa12114f806a2fd1f9be8fe99fb3279a7f451e8f" target="_blank">fa12114</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -561,6 +561,7 @@ Untracked files:
 Unstaged changes:
     Modified:   .Rprofile
     Modified:   .gitignore
+    Modified:   _workflowr.yml
     Modified:   analysis/_site.yml
 
 </code></pre>
@@ -600,6 +601,23 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/jma1991/YS_KDR_HOM_4/e43edb1478f675bf7983721bd7417c3acec3107b/docs/09-cell-annotation.html" target="_blank">e43edb1</a>
+</td>
+<td>
+James Ashmore
+</td>
+<td>
+2021-07-29
+</td>
+<td>
+Build
+</td>
+</tr>
 <tr>
 <td>
 Rmd
@@ -689,9 +707,83 @@ lab &lt;- colnames(res)[max.col(res)]</code></pre>
 <p>Create a heatmap of the AUCell assignment scores:</p>
 <pre class="r"><code>plotScoreHeatmap(dat, clusters = sce$cluster,  fontsize = 8)</code></pre>
 <p><img src="figure/09-cell-annotation.Rmd/unnamed-chunk-11-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-11-1">
+Past versions of unnamed-chunk-11-1.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-11-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/jma1991/YS_KDR_HOM_4/blob/9c65ad70f722c8e14f7bff7a67c6b69c1a0cc7c0/docs/figure/09-cell-annotation.Rmd/unnamed-chunk-11-1.png" target="_blank">9c65ad7</a>
+</td>
+<td>
+James Ashmore
+</td>
+<td>
+2021-07-29
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <p>Plot score distributions of labels:</p>
 <pre class="r"><code>plotScoreDistribution(dat, show = &quot;delta.med&quot;, ncol = 3, show.nmads = 3)</code></pre>
 <p><img src="figure/09-cell-annotation.Rmd/unnamed-chunk-12-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-12-1">
+Past versions of unnamed-chunk-12-1.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-12-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/jma1991/YS_KDR_HOM_4/blob/9c65ad70f722c8e14f7bff7a67c6b69c1a0cc7c0/docs/figure/09-cell-annotation.Rmd/unnamed-chunk-12-1.png" target="_blank">9c65ad7</a>
+</td>
+<td>
+James Ashmore
+</td>
+<td>
+2021-07-29
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="reference-data" class="section level3">
 <h3>Reference data</h3>
@@ -726,9 +818,83 @@ rownames(sce) &lt;- ids # return original feature names</code></pre>
 <p>Create a heatmap of the average SingleR assignment scores:</p>
 <pre class="r"><code>plotScoreHeatmap(fit, clusters = sce$cluster, fontsize = 8)</code></pre>
 <p><img src="figure/09-cell-annotation.Rmd/unnamed-chunk-22-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-22-1">
+Past versions of unnamed-chunk-22-1.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-22-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/jma1991/YS_KDR_HOM_4/blob/9c65ad70f722c8e14f7bff7a67c6b69c1a0cc7c0/docs/figure/09-cell-annotation.Rmd/unnamed-chunk-22-1.png" target="_blank">9c65ad7</a>
+</td>
+<td>
+James Ashmore
+</td>
+<td>
+2021-07-29
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <p>Plot score distributions of labels:</p>
 <pre class="r"><code>plotScoreDistribution(fit, show = &quot;delta.med&quot;, ncol = 3, show.nmads = 3)</code></pre>
 <p><img src="figure/09-cell-annotation.Rmd/unnamed-chunk-23-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-23-1">
+Past versions of unnamed-chunk-23-1.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-23-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/jma1991/YS_KDR_HOM_4/blob/9c65ad70f722c8e14f7bff7a67c6b69c1a0cc7c0/docs/figure/09-cell-annotation.Rmd/unnamed-chunk-23-1.png" target="_blank">9c65ad7</a>
+</td>
+<td>
+James Ashmore
+</td>
+<td>
+2021-07-29
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="selection" class="section level2">
@@ -759,7 +925,7 @@ locale:
 [1] en_GB.UTF-8/en_GB.UTF-8/en_GB.UTF-8/C/en_GB.UTF-8/en_GB.UTF-8
 
 attached base packages:
-[1] stats4    parallel  stats     graphics  grDevices datasets  utils    
+[1] parallel  stats4    stats     graphics  grDevices datasets  utils    
 [8] methods   base     
 
 other attached packages:
@@ -831,99 +997,6 @@ loaded via a namespace (and not attached):
 [103] R.utils_2.10.1                munsell_0.5.0                
 [105] beeswarm_0.4.0                viridisLite_0.4.0            
 [107] vipor_0.4.5                   bslib_0.2.5.1                </code></pre>
-<br>
-<p>
-<button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
-<span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Session information
-</button>
-</p>
-<div id="workflowr-sessioninfo" class="collapse">
-<pre class="r"><code>sessionInfo()</code></pre>
-<pre><code>R version 4.0.2 (2020-06-22)
-Platform: x86_64-apple-darwin17.0 (64-bit)
-Running under: macOS Catalina 10.15.7
-
-Matrix products: default
-BLAS:   /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRblas.dylib
-LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
-
-locale:
-[1] en_GB.UTF-8/en_GB.UTF-8/en_GB.UTF-8/C/en_GB.UTF-8/en_GB.UTF-8
-
-attached base packages:
-[1] stats4    parallel  stats     graphics  grDevices datasets  utils    
-[8] methods   base     
-
-other attached packages:
- [1] MouseGastrulationData_1.4.0 pheatmap_1.0.12            
- [3] patchwork_1.1.1             scater_1.18.6              
- [5] ggplot2_3.3.5               scran_1.18.7               
- [7] SingleCellExperiment_1.12.0 GSEABase_1.52.1            
- [9] graph_1.68.0                annotate_1.68.0            
-[11] XML_3.99-0.6                AnnotationDbi_1.52.0       
-[13] SingleR_1.4.1               SummarizedExperiment_1.20.0
-[15] Biobase_2.50.0              GenomicRanges_1.42.0       
-[17] GenomeInfoDb_1.26.7         IRanges_2.24.1             
-[19] S4Vectors_0.28.1            BiocGenerics_0.36.1        
-[21] MatrixGenerics_1.2.1        matrixStats_0.59.0         
-[23] AUCell_1.12.0               workflowr_1.6.2            
-
-loaded via a namespace (and not attached):
-  [1] ggbeeswarm_0.6.0              colorspace_2.0-2             
-  [3] ellipsis_0.3.2                rprojroot_2.0.2              
-  [5] scuttle_1.0.4                 bluster_1.0.0                
-  [7] XVector_0.30.0                BiocNeighbors_1.8.2          
-  [9] fs_1.5.0                      farver_2.1.0                 
- [11] bit64_4.0.5                   interactiveDisplayBase_1.28.0
- [13] fansi_0.5.0                   codetools_0.2-18             
- [15] R.methodsS3_1.8.1             sparseMatrixStats_1.2.1      
- [17] cachem_1.0.5                  knitr_1.33                   
- [19] jsonlite_1.7.2                dbplyr_2.1.1                 
- [21] R.oo_1.24.0                   shiny_1.6.0                  
- [23] BiocManager_1.30.16           compiler_4.0.2               
- [25] httr_1.4.2                    dqrng_0.3.0                  
- [27] assertthat_0.2.1              Matrix_1.3-4                 
- [29] fastmap_1.1.0                 limma_3.46.0                 
- [31] later_1.2.0                   BiocSingular_1.6.0           
- [33] htmltools_0.5.1.1             tools_4.0.2                  
- [35] rsvd_1.0.5                    igraph_1.2.6                 
- [37] gtable_0.3.0                  glue_1.4.2                   
- [39] GenomeInfoDbData_1.2.4        dplyr_1.0.7                  
- [41] rappdirs_0.3.3                Rcpp_1.0.7                   
- [43] jquerylib_0.1.4               vctrs_0.3.8                  
- [45] ExperimentHub_1.16.1          DelayedMatrixStats_1.12.3    
- [47] xfun_0.24                     stringr_1.4.0                
- [49] beachmat_2.6.4                mime_0.11                    
- [51] lifecycle_1.0.0               irlba_2.3.3                  
- [53] renv_0.13.2                   statmod_1.4.36               
- [55] AnnotationHub_2.22.1          edgeR_3.32.1                 
- [57] zlibbioc_1.36.0               scales_1.1.1                 
- [59] promises_1.2.0.1              RColorBrewer_1.1-2           
- [61] curl_4.3.2                    yaml_2.2.1                   
- [63] memoise_2.0.0                 gridExtra_2.3                
- [65] sass_0.4.0                    stringi_1.7.2                
- [67] RSQLite_2.2.7                 BiocVersion_3.12.0           
- [69] highr_0.9                     BiocParallel_1.24.1          
- [71] rlang_0.4.11                  pkgconfig_2.0.3              
- [73] bitops_1.0-7                  evaluate_0.14                
- [75] lattice_0.20-44               purrr_0.3.4                  
- [77] labeling_0.4.2                bit_4.0.4                    
- [79] tidyselect_1.1.1              magrittr_2.0.1               
- [81] R6_2.5.0                      generics_0.1.0               
- [83] DelayedArray_0.16.3           DBI_1.1.1                    
- [85] pillar_1.6.1                  whisker_0.4                  
- [87] withr_2.4.2                   RCurl_1.98-1.3               
- [89] tibble_3.1.2                  crayon_1.4.1                 
- [91] utf8_1.2.1                    BiocFileCache_1.14.0         
- [93] rmarkdown_2.9                 viridis_0.6.1                
- [95] locfit_1.5-9.4                grid_4.0.2                   
- [97] data.table_1.14.0             blob_1.2.1                   
- [99] git2r_0.28.0                  digest_0.6.27                
-[101] xtable_1.8-4                  httpuv_1.6.1                 
-[103] R.utils_2.10.1                munsell_0.5.0                
-[105] beeswarm_0.4.0                viridisLite_0.4.0            
-[107] vipor_0.4.5                   bslib_0.2.5.1                </code></pre>
-</div>
 </div>
 </div>
 
