@@ -29,10 +29,10 @@ navbar:
           href: 09-cell-annotation.html
     - text: "Analysis"
       menu:
-        - text: "Scenic analysis"
-          href: scenic-analysis.html
         - text: "Signaling analysis"
           href: signaling-analysis.html
+        - text: "SCENIC analysis"
+          href: scenic-analysis.html
     - text: "Interactive"
       href: interactive.html
   right:
